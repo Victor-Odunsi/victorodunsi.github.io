@@ -2631,3 +2631,27 @@ input, select, textarea {
 				}
 
 	}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.skill-box {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+}
