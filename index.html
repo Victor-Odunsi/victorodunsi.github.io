@@ -82,35 +82,161 @@
 					</section>
 
 				<!-- Portfolio -->
+				
 				<section id="portfolio" class="two">
-				<div class="container">
+					<div class="container">
 
-					<header>
-					<h2>Portfolio Projects</h2>
-					</header>
+						<header>
+						<h2>PORTFOLIO PROJECTS</h2>
+						<h4>A selection of my work in Data Science, Machine Learning and AI</h4>
+						</header>
 
-					<div class="portfolio-grid">
-					<article class="portfolio-item">
-						<a href="https://medium.com/@Victor_Odunsi/sql-and-tableau-project-exploratory-data-analysis-on-world-death-data-5e3549f1cafc" class="image fit">
-						<img src="images/Screenshot 2023-09-20 234616.png" alt="SQL & Tableau Project" />
-						</a>
-						<h2>SQL and Tableau Project</h2>
-						<p>Exploratory Data Analysis on World Death Data</p>
-					</article>
+						<div class="portfolio-grid">
 
-					<article class="portfolio-item">
-						<a href="https://github.com/Victor-Odunsi/SQL-data-cleaning/blob/b1c2b471f35b63f7c1d7e78b7126738e4e64e825/Nashville%20Housing%20Data%20cleaning" class="image fit">
-						<img src="images/brandon-griggs-wR11KBaB86U-unsplash.jpg" alt="SQL Data Cleaning" />
-						</a>
-						<h2>Data Cleaning in SQL</h2>
-						<p>Transforming raw Nashville Housing data into structured form</p>
-					</article>
+						<article class="portfolio-item">
+							<a href="http://13.62.69.28:8501/" 
+							class="image fit">
+							<img src="images/chatbot-image.png" alt="SQL & Tableau Project" />
+							</a>
+							<h3>ISO 15189:2022 RAG Chatbot – Laboratory QMS Assistant</h3>
+							<p class="project-desc">
+							This project applies Retrieval-Augmented Generation (RAG) to the ISO 15189:2022 standard, 
+							which defines the framework for quality management systems (QMS) in medical laboratories.
+							A strong QMS is critical for ensuring reliable test results, patient safety, 
+							and international accreditation — but the standard can be dense and difficult to navigate.
+							This chatbot was designed to provide clause-specific guidance by retrieving relevant sections of the standard and generating clear, contextual explanations
+							This project was built using LangChain to handle document retrieval and context management deployed using Streamlit on an AWS EC2 instance.
+							</p>
+							<p>Skills: LangChain, Vector Databases(Chroma), Docker, AWS</p>
 
-					<!-- Add more projects here -->
+							<div class="project-links">
+							<a href="https://github.com/Victor-Odunsi/ISO15189Chatbot" target="_blank">Code</a>
+							<a href="http://13.62.69.28:8501" target="_blank">Demo</a>
+							</div>
+						</article>
+						
+						<article class="portfolio-item">
+							<a href="https://anime-recommender-tld1.onrender.com" 
+							class="image fit">
+							<img src="images/AnimeMatch image.png" alt="SQL & Tableau Project" />
+							</a>
+							<h3>AnimeMatch</h3>
+							<p class="project-desc">
+							This is a content-based recommendation system I built as a fun project that combines my love for anime with data science. 
+							The app analyzes anime metadata such as synopsis, genres, and themes to compute text embeddings using TF-IDF, 
+							then applies cosine similarity to recommend similar shows.
+							I also integrated API updates Jikan so the dataset stays current, 
+							and automated weekly refreshes with cloud cron jobs. The app is deployed on Render, with persistent storage for embeddings and trending anime data.
+							</p>
+							<p>Skills: Data Pipelines, ML, Cloud Deployment, APIs</p>
+
+							<div class="project-links">
+							<a href="https://github.com/Victor-Odunsi/Anime-Recommender" target="_blank">Code</a>
+							<a href="https://anime-recommender-tld1.onrender.com" target="_blank">Demo</a>
+							</div>
+						</article>
+
+
+						<article class="portfolio-item">
+							<a href="https://medium.com/@Victor_Odunsi/sql-and-tableau-project-exploratory-data-analysis-on-world-death-data-5e3549f1cafc" 
+							class="image fit">
+							<img src="images/Screenshot 2023-09-20 234616.png" alt="SQL & Tableau Project" />
+							</a>
+							<h3>SQL and Tableau Project</h3>
+							<p class="project-desc">
+							Conducted an exploratory data analysis on global mortality data using Microsoft Excel, SQL for querying, aggregation, and trend analysis, 
+							Power Query for data transformation (unpivoting/cleaning), and Tableau for visualization. 
+							The project identified leading causes of death globally and in Nigeria, uncovered trends such as rising drug use disorder deaths, 
+							and presented findings through an interactive Tableau dashboard, showcasing end-to-end data preparation, analysis, and visualization skills.
+							</p>
+							<p>Skills: Data Cleaning, SQL Querying, Data Visualization (Tableau), Exploratory Data Analysis.</p>
+
+							<div class="project-links">
+							<a href="https://github.com/Victor-Odunsi/sql-tableau-world-death" target="_blank">Code</a>
+							<a href="https://medium.com/@Victor_Odunsi/sql-and-tableau-project-exploratory-data-analysis-on-world-death-data-5e3549f1cafc" target="_blank">Dashboard</a>
+							</div>
+						</article>
+
+			
+						<article class="portfolio-item">
+							<a href="https://github.com/Victor-Odunsi/SQL-data-cleaning/tree/main" 
+							class="image fit">
+							<img src="images/brandon-griggs-wR11KBaB86U-unsplash.jpg" alt="SQL Data Cleaning" />
+							</a>
+							<h3>Nashville Housing Data Cleaning (SQL Project)</h3>
+							<p class="project-desc">
+							This project demonstrates end-to-end data cleaning using SQL on a real estate dataset.
+							Key steps included standardizing date formats, filling missing property addresses via self-joins, 
+							splitting address fields into components, normalizing categorical values, removing duplicates with CTEs and window functions, 
+							and dropping irrelevant columns. The project highlights practical data cleaning techniques essential for preparing raw data for analysis.
+							</p>
+							<p>Skills: SQL, Data Cleaning, Data Transformation, Window Functions, CTEs</p>
+
+							<p></p>
+							<div class="project-links">
+							<a href="https://github.com/Victor-Odunsi/SQL-data-cleaning/tree/main" target="_blank">Code</a>
+							</div>
+						</article>
+
+						</div>
+						
 					</div>
-
-				</div>
 				</section>
+
+<!-- 
+				<section id="portfolio" class="two">
+					<div class="container">
+
+						<header>
+						<h2>Portfolio Projects</h2>
+						<p>A selection of my work in Data Science, Machine Learning and AI</p>
+						</header>
+
+						<div class="portfolio-grid">
+
+						<article class="portfolio-item">
+							<a href="https://anime-recommender-tld1.onrender.com" 
+							class="image fit">
+							<img src="images/chatbot-image.png" alt="SQL & Tableau Project" />
+							</a>
+							<h3>ISO15189 Chatbot</h3>
+							<p>This Chatbot helps laboratory owners comply to the ISO QMS standard</p>
+						</article>
+
+						
+						<article class="portfolio-item">
+							<a href="http://13.62.69.28:8501/" 
+							class="image fit">
+							<img src="images/AnimeMatch image.png" alt="SQL & Tableau Project" />
+							</a>
+							<h3>AnimeMatch</h3>
+							<p>As an anime lover, this project is an anime recommender</p>
+						</article>
+
+						<article class="portfolio-item">
+							<a href="https://medium.com/@Victor_Odunsi/sql-and-tableau-project-exploratory-data-analysis-on-world-death-data-5e3549f1cafc" 
+							class="image fit">
+							<img src="images/Screenshot 2023-09-20 234616.png" alt="SQL & Tableau Project" />
+							</a>
+							<h3>SQL and Tableau Project</h3>
+							<p>Exploratory Data Analysis on World Death Data.</p>
+						</article>
+
+						<article class="portfolio-item">
+							<a href="https://github.com/Victor-Odunsi/SQL-data-cleaning/blob/main/Nashville%20Housing%20Data%20cleaning" 
+							class="image fit">
+							<img src="images/brandon-griggs-wR11KBaB86U-unsplash.jpg" alt="SQL Data Cleaning" />
+							</a>
+							<h3>Data Cleaning in SQL</h3>
+							<p>Transforming raw Nashville Housing data into structured form.</p>
+						</article> -->
+<!-- 
+						<!-- Add more projects here
+						</div>
+
+					</div>
+					</section> -->
+
 
 
 				<!-- About Me -->
@@ -124,7 +250,7 @@
 							<a href="#" class="image featured"><img src="images/.jpg" alt="" /></a>
 
 							<p>I am a data scientist and machine learning engineer with a strong foundation in analytical problem-solving and end-to-end model development. 
-							   My background as a medical laboratory scientist has given me a deep appreciation for precision, rigor, and the real-world impact of data-driven decisions.
+							   My background as a medical laboratory scientist has given me a deep appreciation for precision, rigour, and the real-world impact of data-driven decisions.
 
 							   Today, I specialize in Python, scikit-learn, PyTorch, and LangChain, leveraging these tools to build and deploy machine learning and AI solutions. 
 							   My work spans classical machine learning, deep learning, and LLM-powered applications, with a strong focus on deploying models into production using modern frameworks.
